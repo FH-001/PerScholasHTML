@@ -1,3 +1,63 @@
 body {
- color: grey ;
+    background-color: rgba(128, 128, 128, 0.37) ;
+    /* creative css */
+    padding: .75%;
+}
+
+h1 {
+    text-align: center;
+    /* creative css */
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+h2 {
+    color: rgb(219, 144, 4);
+}
+
+img {
+    border: 1px groove;
+    margin: 2%;
+    /* creative css */
+    width:auto;
+    max-height: 25em;
+    border: 2px solid rgb(196, 28, 230);
+    border-radius: 5px;
+    background-color: rgb(96 139 168 / 0.2);
+}
+
+#description {
+    padding: 25px;
+    border: 2%;
+}
+
+.ingredients-section {
+    background-color: rgb(177, 168, 168);
+    padding: .25%;
+}
+
+.ingredients-section li{
+    color:rgb(255, 85, 33); 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(247, 0, 255);
+}
+
+p {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h2 {
+    font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+}
+
+.more-recipes ul li {
+    list-style-type: none;
 }
